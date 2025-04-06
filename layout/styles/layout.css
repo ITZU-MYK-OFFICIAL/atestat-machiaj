@@ -1,14 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Pentwist
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
-
 @import url("fontawesome-free/css/all.min.css");
 @import url("framework.css");
 
@@ -354,7 +344,6 @@ input:focus, textarea:focus, *:required:focus{border-color:#D24130 !important;}
 #latest article .excerpt:hover{border-color:#D24130;}
 #latest article .excerpt .meta li{border-color:rgba(0,0,0,.1);}
 
-
 /* Footer */
 #footer .heading{color:#FFFFFF;}
 #footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.1);}
@@ -367,11 +356,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#D24130 !important;}
 
 #footer nav a{color:#FFFFFF;}
 #footer nav a:hover{color:#D24130;}
-
-
 /* Copyright */
 #copyright{border-color:rgba(255,255,255,.2);}
-
 
 /* Navigation */
 #mainav li a{color:inherit; border-color:transparent;}
@@ -390,30 +376,13 @@ input:focus, textarea:focus, *:required:focus{border-color:#D24130 !important;}
 .pagination .current *{color:#FFFFFF; background-color:#D24130;}
 
 #backtotop{color:#FFFFFF; background-color:#D24130;}
-
-
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
 th{color:#FFFFFF; background-color:#373737;}
 tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
 table a, #comments a{background-color:inherit;}
-
-
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------------------------------------ */
-
-
-/* Media Queries
---------------------------------------------------------------------------------------------------------------- */
 @-ms-viewport{width:device-width;}
-
-
-/* Max Wrapper Width - Laptop, Desktop etc.
---------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:1140px){
 	.hoc{max-width:1540px;}
 }
@@ -421,10 +390,6 @@ table a, #comments a{background-color:inherit;}
 @media screen and (min-width:978px) and (max-width:1140px){
 	.hoc{max-width:95%;}
 }
-
-
-/* Mobile Devices
---------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:978px){
 	.hoc{max-width:90%;}
 
@@ -479,8 +444,6 @@ table a, #comments a{background-color:inherit;}
 	#points li{display:block; float:none; width:100%; margin-left:0;}
 	#points li:nth-last-child(2){margin-bottom:20px;}
 }
-
-
 /* Other
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:650px){
